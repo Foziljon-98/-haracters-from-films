@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b3d59c92a1.js" crossorigin="anonymous"></script>
+
+   
+</head> 
+<body> 
+    <div class="container-fluid header_container">
+        <nav class="navbar navbar-expan-lg  d-flex justify-content-beatwen">
+            <div class="container header">
+                <div>
+                    <a style="font-size: 25px;" href="#" class="navbar-brand text-light">Admin Panel</a>
+                </div>
+                <div class="d-flex justify-content-beatwen m-2 me-auto">
+                    <select class="form-select theme-selector text-light">
+                        <option class="text-dark" value="dark">Dark</option>
+                        <option class="text-dark" value="light">Light</option>
+                        <option class="text-dark" value="custom">Custom</option>
+                    </select>
+                    <div>
+                        <button  class="btn btn-danger signOutBtn">Sign out</button>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+    </div>
+
+    <div class="intro_items">    
+        <div class="form col-lg-5 form_task">
+            <div class="card addCard">
+                <div class="card-header">
+                    <h3 class="card-title mb-0 text-center">Add new Person</h3>
+                </div>       
+                <div class="card-body body_items">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control title personName" placeholder="Person name">
+                            <input type="text" class="form-control title species" placeholder="Species">
+                            <input type="text" class="form-control title gender" placeholder="Gender">
+                            <input type="text" class="form-control title faculty" placeholder="Faculty">
+                            <input type="text" class="form-control title actor" placeholder="Actor">
+                            <input type="text" class="form-control title linkPhoto" placeholder="Link to photo">
+                        </div>
+                        <div class="mb-3">
+                            <textarea type="text" class="form-control content" rows="5" placeholder="Biography..."></textarea>
+                        </div>
+                        <div class="mb-3 submitBtn_box">
+                            <button  class="btn btn-success btn-lg submitBtn">New person</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Cards -->    
+        
+    <div class="container cards_container mt-5">
+        <div class=" data-container">
+          <div class="wrapper d-flex">
+           
+          </div>
+        </div>
+    </div>
+
+
+
+     <!-- Footer -->
+     <footer>
+        <div class="conatiner-fluid footer">
+          <div class="col m-0">
+            <div class="soshial_icons pb-3">
+              <div class="icons  pt-5 text-center">
+                <div class="sohial_text">
+                  <p class="text-light">Новинки в соцсетях:</p>
+                </div>
+                <a class="text-light" href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fab fa-facebook"></i></a>
+                <a class="text-light" href="https://www.instagram.com/?hl=ru"><i class="fab fa-instagram"></i></a>
+                <a class="text-light" href="https://www.whatsapp.com/?lang=ru"><i class="fab fa-whatsapp"></i></a>
+                <a class="text-light" href="https://twitter.com/?lang=ru"><i class="fab fa-twitter"></i></a>
+  
+                
+              </div>
+            </div>
+            <div class="cpyright">
+              <p class="text-light">&copy; 2020-2021 OOO | All rights reserved!
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+
+
+
+    <script  src="js/admin.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js
+    "></script>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
